@@ -1,0 +1,15 @@
+import os, sys
+sys.path.append(os.getcwd())
+
+import pytest
+from lib.core import wraps
+
+class {}:
+    """{}"""
+
+    def setup(self):
+        """ setup function """
+
+    def teardown(self):
+        """ tearDown function """
+

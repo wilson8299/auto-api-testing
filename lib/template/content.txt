@@ -1,0 +1,10 @@
+    @wraps.test_case_runner
+    @wraps.test_case_parse
+    def {}(self, *args, **kwargs):
+        """ {} """
+        response = kwargs.get('response')
+        print("Response :", response)
+        print("AssertInfo: ", kwargs.get('exec_text'))
+        for assert_vale in kwargs.get('exec_text'):
+            assert assert_vale[0] == assert_vale[1]
+

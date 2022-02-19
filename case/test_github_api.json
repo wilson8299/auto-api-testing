@@ -1,0 +1,22 @@
+{
+    "test_some_endpoint_success": {
+        "url": "https://api.github.com/some/endpoint",
+        "method": "get",
+        "desc": "Test github endpoint api",
+        "param": "",
+        "assert": {
+            "message": "Not Found",
+            "documentation_url": "https://docs.github.com/rest"
+        }
+    },
+    "test_some_endpoint_fail": {
+        "url": "https://api.github.com/some/endpoint",
+        "method": "get",
+        "desc": "Test github endpoint api",
+        "param": "",
+        "assert": {
+            "message": "Not Found Error",
+            "documentation_url": "https://docs.github.com/rest"
+        }
+    }
+}
