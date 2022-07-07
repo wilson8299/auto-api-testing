@@ -5,7 +5,7 @@ AutoApiTesting 是自動化測試 API 的腳本，使用 Python 和 Pytest，程
 
 ## Usage
 ```cmd
-$ git clone https://github.com/wilson8299/AutoApiTesting.git
+$ git clone https://github.com/wilson8299/auto-api-testing.git
 
 $ pip3 install -r requirements.txt
 
